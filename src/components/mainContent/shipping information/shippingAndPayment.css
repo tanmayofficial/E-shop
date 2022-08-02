@@ -1,0 +1,18 @@
+
+ 
+.payment-method-logo{
+    width: 50px;
+    height: 30px;
+    mix-blend-mode: multiply;
+}
+.tshirt-img{
+    width: 45px;
+    height: 45px;
+    mix-blend-mode: multiply;
+}
+.small-font{
+    font-size: 10px;
+}
+.medium-font{
+    font-size: 12px;
+}
