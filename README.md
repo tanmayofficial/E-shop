@@ -1,3 +1,7 @@
+This is an ecommerce payment page design only with login functionality.
+I have created this design using ReactJS, bootstrap, react-icons and reactstrap.
+Here is the example of the live application : https://e-shop-web.netlify.app
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
