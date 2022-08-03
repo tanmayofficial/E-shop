@@ -1,15 +1,29 @@
-import React from "react";
-import "./shippingAndPayment.css";
+import React, { useState } from "react";
 import Cart from "../cart/Cart";
 import PaymentMethods from "../payment method/PaymentMethods";
+import Login from "../../login/Login";
+import Signup from "../../signup/Signup";
+import "./shippingAndPayment.css";
+
 
 const ShippingAndPayment = () => {
+  const [loginModal, setLoginModal] = useState(false);
+    const [signupModal, setSignupModal] = useState(false);
+
+    const toggleLogin = () => {
+        setLoginModal(!loginModal);
+    }
+    const toggleSignup = () => {
+        setSignupModal(!signupModal);
+    }
+
+
   return (
     <div className="container m-3 px-5">
       <h5 className="my-5">Shipping and Payment</h5>
       <span>
-        <button className="btn-2 mx-2 px-4">LOG IN</button>
-        <button className="btn-1 mx-2">SIGN UP</button>
+        <button className="btn-2 mx-2 px-4" onClick={toggleLogin}>LOG IN</button>
+        <button className="btn-1 mx-2" onClick={toggleSignup}>SIGN UP</button>
       </span>
       <form>
         <div className="row my-4">
@@ -71,7 +85,8 @@ const ShippingAndPayment = () => {
           </div>
           <PaymentMethods />
           <Cart />
-
+          <Login loginModal={loginModal} toggleLogin={toggleLogin} />
+          <Signup signupModal={signupModal} toggleSignup={toggleSignup} />
         </div>
       </form>
     </div>

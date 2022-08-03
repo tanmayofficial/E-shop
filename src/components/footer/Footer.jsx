@@ -5,7 +5,7 @@ import '../utilityStyle.css'
 const Footer = () => {
   return (
     <div>
-      <footer id="sticky-footer" className="pb-3 bg-light text-dark-50">
+      <footer id="sticky-footer" className="pb-3 text-dark-50">
         <div className="d-flex justify-content-between align-items-center mx-5">
           <div>
             <a className="nav-link mx-3" href="#">
