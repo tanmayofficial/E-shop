@@ -6,8 +6,8 @@ const Signup = (props) => {
 
     return (
         <div>
-            <Modal isOpen={signupModal} toggle={signupModal}>
-                <ModalHeader toggle={signupModal}>Sign up</ModalHeader>
+            <Modal isOpen={signupModal} toggle={toggleSignup}>
+                <ModalHeader toggle={toggleSignup}>Sign up</ModalHeader>
                 <ModalBody>
                     <form>
                         <div className="container p-3">
