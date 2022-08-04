@@ -19,7 +19,7 @@ const ShippingAndPayment = () => {
 
 
   return (
-    <div className="container m-3 px-5">
+    <div className="container m-2 px-5">
       <h5 className="my-5">Shipping and Payment</h5>
       <span>
         <button className="btn-2 mx-2 px-4" onClick={toggleLogin}>LOG IN</button>

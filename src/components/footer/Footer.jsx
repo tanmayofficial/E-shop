@@ -4,7 +4,7 @@ import '../utilityStyle.css'
 
 const Footer = () => {
   return (
-    <div>
+    <div className="mt-4">
       <footer id="sticky-footer" className="pb-3 text-dark-50">
         <div className="d-flex justify-content-between align-items-center mx-5">
           <div>
@@ -13,7 +13,7 @@ const Footer = () => {
               <span className="m-2"> Back</span>
             </a>
           </div>
-          <div className="" href="#">
+          <div className="">
             <button className="btn-1 m-2">
               CONTINUE SHOPPING
             </button>
